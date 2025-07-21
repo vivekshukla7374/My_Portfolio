@@ -2,7 +2,6 @@ import SingleSkill from "./SingleSkill";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiPython } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa";
@@ -22,10 +21,6 @@ const skills = [
   {
     skill: "JavaScript",
     icon: IoLogoJavascript,
-  },
-  {
-    skill: "TypeScript",
-    icon: SiTypescript,
   },
   {
     skill: "ReactJS",
