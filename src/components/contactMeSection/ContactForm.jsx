@@ -114,8 +114,8 @@ const ContactForm = () => {
   });
 
   emailjs
-    .sendForm("service_ko3hmpt", "template_ahbmmqd", form.current, {
-      publicKey: "I6HAT5mUZH7WHabGE",
+    .sendForm("service_0i38eh9", "template_szz3dlb", form.current, {
+      publicKey: "p19IXbWDCg6n__NuB",
     })
     .then(
       () => {
