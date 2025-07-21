@@ -57,12 +57,12 @@ const HeroText = () => {
         <h1>Vivek Shukla</h1>
         <h3>And I'm a</h3>
       </motion.h2>
-      <motion.h1
+      <motion.h2
         variants={fadeIn("right", 0.4)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.2rem] lg:text-5xl sm:text-3xl text-orange font-bold uppercase h-[120px]"
+        className="md:text-[2.2rem] lg:text-5xl sm:text-3xl text-orange font-bold uppercase h-[60px] m-0"
       >
         <Typewriter
           words={["Frontend Developer", "Web Developer", "UI/UX Designer","Coder"]}
@@ -73,14 +73,14 @@ const HeroText = () => {
           deleteSpeed={50}
           delaySpeed={1500}
         />
-      </motion.h1>
+      </motion.h2>
 
       <motion.p
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-lg mt-4"
+        className="text-lg m-0"
       >
         "I'm Vivek, Passionate Web Developer & Student Instructor with 1 year of experience in <br />creating responsive websites and mentoring peers in web development basics."
       </motion.p>
