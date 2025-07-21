@@ -84,7 +84,7 @@
 
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import Swal from "sweetalert2"; // ✅ Import Swal
+import Swal from "sweetalert2"; 
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -108,7 +108,7 @@ const ContactForm = () => {
   Swal.fire({
     title: "Sending...",
     text: "Please wait while we send your message",
-    icon: "info", // optionally use "info" here
+    icon: "info",
     showConfirmButton: false,
     timer: 1000,
   });
@@ -137,7 +137,7 @@ const ContactForm = () => {
         Swal.fire({
           title: "Oops!",
           text: "Something went wrong. Please try again.",
-          icon: "error", // ✅ FIXED HERE
+          icon: "error", 
           confirmButtonColor: "#e11d48",
         });
       }
